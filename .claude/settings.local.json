@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd D:/session-app && npm install 2>&1)",
+      "Bash(cd D:/session-app/frontend && npm install 2>&1)",
+      "Bash(node:*)",
+      "Bash(cd D:/session-app/frontend && npx vite build 2>&)",
+      "Bash(cd D:/session-app && git init 2>&1)",
+      "Bash(cd:*)"
+    ]
+  }
+}

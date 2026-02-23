@@ -1,0 +1,7 @@
+node_modules/
+.env
+server/data/sessions/*.json
+server/uploads/*
+!server/uploads/.gitkeep
+!server/data/sessions/.gitkeep
+frontend/dist/
